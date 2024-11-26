@@ -14,6 +14,13 @@ Data is stored in **\~/radicalaces-mikroskeem.properties**
 ## Building
 Invoke `./gradlew` and grab `build/libs/radicalaces.jar`. If you don't know what any of this means, then don't bother.
 
+## Run through Nix
+
+- Make sure Nix is installed and Nix flake is enabled (https://zero-to-nix.com/start/install/)
+- In terminal,
+  - `nix develop` - opens a terminal session with java/jdk dependencies install
+  - `./run.sh`
+
 ## License
 Original code/resource rights belong to Radicalplay.com. My modifications are licensed under MIT
 
