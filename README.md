@@ -18,7 +18,7 @@ Invoke `./gradlew` and grab `build/libs/radicalaces.jar`. If you don't know what
 
 - Make sure Nix is installed and Nix flake is enabled (https://zero-to-nix.com/start/install/)
 - In terminal,
-  - `nix develop` - opens a terminal session with java/jdk dependencies install
+  - `nix develop` - opens a terminal session with java/jdk dependencies installed
   - `./run.sh`
 
 ## License
