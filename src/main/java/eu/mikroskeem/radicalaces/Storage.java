@@ -11,7 +11,7 @@ public class Storage {
     private final Properties storage;
 
     public Storage(String filename) throws IOException {
-        path = Paths.get(System.getProperty("user.home"), filename);
+        path = Paths.get(System.getProperty("user.dir"), filename);
         if(Files.notExists(path)) {
             Files.createFile(path);
         }
